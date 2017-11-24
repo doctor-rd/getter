@@ -23,7 +23,6 @@ __attribute__((constructor)) static void init() {
 		exit( 1 );
 	}
 	fprintf( stderr, "getter enabled\n" );
-	return;
 }
 
 void getter_disable() {
